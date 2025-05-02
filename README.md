@@ -66,4 +66,4 @@ The service consumes personal data, which should be protected with proper user a
   * This should be enforced by the host provider, in this case Azure
 
 # Things to improve on
-Currently there are no tests for the service, but it is planed to use the trophy test shape. This is to ensure that the service is tested in a way that is easy to understand and maintain. The tests should be run on every commit to ensure that the service is always in a working state. To ensure that the tests are run they should be executed during the CI/CD pipeline.
+Currently there are no tests for the service, but it is planed to use the testing trophy model. This is to ensure that the service is tested in a way that is easy to understand and maintain. The tests should be run on every commit to ensure that the service is always in a working state. To ensure that the tests are run they should be executed during the CI/CD pipeline.
