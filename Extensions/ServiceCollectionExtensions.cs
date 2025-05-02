@@ -98,6 +98,7 @@ public static class ServiceCollectionExtensions
     {
         services.AddScoped<ICreationsManager, CreationsManager>();
         services.AddScoped<IPartsManager, PartsManager>();
+        services.AddScoped<IReportsManager, ReportsManager>();
 
         return services;
     }
