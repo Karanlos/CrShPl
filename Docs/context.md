@@ -1,3 +1,5 @@
+
+```mermaid
     C4Context
       title System Context diagram for Internet Banking System
 
@@ -20,3 +22,4 @@
         Rel(SystemAPI, SystemIDP, "Uses")
         Rel(SystemConsumer, SystemIDP, "Uses")
         Rel(SystemAPI, SystemELK, "Stores log messages")
+```

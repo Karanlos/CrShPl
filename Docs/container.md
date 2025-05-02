@@ -1,3 +1,5 @@
+
+```mermaid
 C4Context
     title System Container diagram for Creation Sharing Platform
 
@@ -40,3 +42,4 @@ C4Context
     Rel(SystemAPI, SystemsManager, "Uses for storing secrets and configuration")
     Rel(SystemAPI, ELK, "Uses for logging and monitoring")
     Rel(SystemAPI, PartsDatabase, "Used to look up parts data")
+```
